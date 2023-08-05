@@ -49,7 +49,7 @@ This `Application` entity will reference `component`, `trait`, `policy` and `wor
 
 * **Trait**: Traits are management requirements of an artifact that can be declared with each Component. For example: scale and rollout strategy, persistent storage claim, gateway endpoint and so on.
 
-* **Policy**: Policy defines a strategy of certain aspect for application as to multi-cluster topology, configuration overrides, security/firewall rules, SLO and etc. It's a bit similar with traits but take affects to the whole application instead of one component.
+* **Policy**: Policy defines a strategy of certain aspects for application as to multi-cluster topology, configuration overrides, security/firewall rules, SLO and etc. It's a bit similar to traits but takes effects on the whole application instead of one component.
 
 * **Workflow Step**: Workflow step allows you to define every steps in the delivery process, typical steps are manual approval, partial deploy, notification.
 
